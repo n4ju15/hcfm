@@ -5,6 +5,7 @@ import Contact from './components/contact/ContactHeader';
 import './components/contact/Contact.css'
 import Header from './components/header/Header'
 import './components/header/Header.css'
+import Carrossel from './components/carrossel/Carrossel'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <main>
         {/* SECTIONS */}
         <Header />
+        <Carrossel />
       </main>
 
       {/* FOOTER */}

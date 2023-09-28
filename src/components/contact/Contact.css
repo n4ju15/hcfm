@@ -7,8 +7,31 @@
     align-items: center;
     justify-content: center;
     color: #0B3B5B;
+    padding: 1rem;
+    line-height: 1rem;
 }
 
-p .bold {
+a {
+    text-decoration: none;
+}
+
+a:nth-child(2) {
+    cursor: pointer;
+}
+
+a:last-child {
+    cursor: pointer;
+}
+
+a .bold {
     font-weight: bold;
+}
+
+a:visited {
+    color: #0B3B5B;
+}
+
+i {
+    font-size: 1.5rem;
+    vertical-align: middle;
 }

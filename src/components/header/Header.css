@@ -1,21 +1,58 @@
-
-.container-header {
-    display: flex;
-    background-color: #FFFFFF;
+nav {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
     align-items: center;
     justify-content: center;
-    color: #646C84;
-    font-weight: 700;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 1rem;
 }
 
-select {
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul a {
     color: #646C84;
-    font-weight: 700;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: .7s;
+    font-weight: 500;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul a:hover {
+    color: #4F81C6;
+}
+
+nav ul li:hover>ul {
+    display: block;
+    
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    width: 200px;
+    top: 120px;
+    background-color: #ffffff;
+    padding: 0;
+    font-size: 0.8rem;
+}
+
+nav ul ul li:hover {
+    background-color: #F6F7F8;
+}
+
+nav ul ul li {
+    position: relative;
+}
+
+nav ul ul li a {
+    padding: 0.5rem;
+    display: block;
 }
