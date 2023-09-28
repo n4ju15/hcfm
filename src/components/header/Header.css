@@ -1,0 +1,21 @@
+
+.container-header {
+    display: flex;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: #646C84;
+    font-weight: 700;
+}
+
+select {
+    color: #646C84;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .7s;
+}
